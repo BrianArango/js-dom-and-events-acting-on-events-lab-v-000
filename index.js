@@ -1,7 +1,10 @@
 function preventRefreshOnSubmit(){
-    document.querySelector('form').addEventListener('submit', function(event){
-      event.preventDefault()
-    })
+    document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault();
+    });
 }
+preventRefreshOnSubmit();
 
-preventRefreshOnSubmit()
+function retrieveEmployeeInformation() {
+ document.querySelector('input').retrieveEmployeeInformation(event);}
+ 
